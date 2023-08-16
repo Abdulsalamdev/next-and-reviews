@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background: hsl(210, 36%, 96%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: clamp(30px, 3.5vw, 60px);
+  padding: 30px;
+}
+
+.content div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 2rem;
+  color: hsl(209, 61%, 16%);
+}
+
+.content div .width {
+  width: 5rem;
+  background-color: hsl(205, 78%, 60%);
+  height: 0.25rem;
+}
+
+.all {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  box-sizing: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.img {
+  width: 150px;
+  height: auto;
+  border-radius: 100%;
+}
+
+.name {
+  font-size: 1rem;
+  color: hsl(209, 61%, 16%);
+}
+
+.job {
+  color: hsl(205, 78%, 60%);
+  font-size: 0.85rem;
+}
+
+.text {
+  max-width: 555px;
+  text-align: center;
+  color: hsl(210, 22%, 49%);
+}
+
+.random {
+  transition: all 0.3s linear;
+  background-color: hsl(205, 100%, 96%);
+  border-color: hsl(205, 78%, 60%);
+  padding: 0.25rem 0.5rem;
+  color: hsl(205, 78%, 60%);
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+
+.random:hover {
+  background-color: hsl(205, 78%, 60%);
+  color: hsl(205, 86%, 17%);
+}
