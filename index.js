@@ -35,7 +35,7 @@ const next = document.querySelector('.next');
 const prev = document.querySelector('.prev');
 const surprise = document.querySelector('.random');
 
-
+// getting list of data 
 let img = document.querySelector('.img');
 let name = document.querySelector('.name');
 let job = document.querySelector('.job');
